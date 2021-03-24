@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE6E36025DD3FC3008C71B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6E35F25DD3FC3008C71B4 /* AppDelegate.swift */; };
+		FAE6E36225DD3FC3008C71B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6E36125DD3FC3008C71B4 /* SceneDelegate.swift */; };
+		FAE6E36425DD3FC3008C71B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6E36325DD3FC3008C71B4 /* ViewController.swift */; };
+		FAE6E36725DD3FC3008C71B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E36525DD3FC3008C71B4 /* Main.storyboard */; };
+		FAE6E36925DD3FC4008C71B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E36825DD3FC4008C71B4 /* Assets.xcassets */; };
+		FAE6E36C25DD3FC4008C71B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E36A25DD3FC4008C71B4 /* LaunchScreen.storyboard */; };
+		FAE6E37725DD3FC4008C71B4 /* zailaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6E37625DD3FC4008C71B4 /* zailaTests.swift */; };
+		FAE6E38225DD3FC4008C71B4 /* zailaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6E38125DD3FC4008C71B4 /* zailaUITests.swift */; };
+		FAE6E39725DD440F008C71B4 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39025DD440F008C71B4 /* F.wav */; };
+		FAE6E39825DD440F008C71B4 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39125DD440F008C71B4 /* D.wav */; };
+		FAE6E39925DD440F008C71B4 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39225DD440F008C71B4 /* B.wav */; };
+		FAE6E39A25DD440F008C71B4 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39325DD440F008C71B4 /* E.wav */; };
+		FAE6E39B25DD440F008C71B4 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39425DD440F008C71B4 /* G.wav */; };
+		FAE6E39C25DD440F008C71B4 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39525DD440F008C71B4 /* C.wav */; };
+		FAE6E39D25DD440F008C71B4 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE6E39625DD440F008C71B4 /* A.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE6E37325DD3FC4008C71B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE6E35425DD3FC3008C71B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE6E35B25DD3FC3008C71B4;
+			remoteInfo = zaila;
+		};
+		FAE6E37E25DD3FC4008C71B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE6E35425DD3FC3008C71B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE6E35B25DD3FC3008C71B4;
+			remoteInfo = zaila;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE6E35C25DD3FC3008C71B4 /* zaila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zaila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE6E35F25DD3FC3008C71B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE6E36125DD3FC3008C71B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAE6E36325DD3FC3008C71B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		FAE6E36625DD3FC3008C71B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE6E36825DD3FC4008C71B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE6E36B25DD3FC4008C71B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE6E36D25DD3FC4008C71B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE6E37225DD3FC4008C71B4 /* zailaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zailaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE6E37625DD3FC4008C71B4 /* zailaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zailaTests.swift; sourceTree = "<group>"; };
+		FAE6E37825DD3FC4008C71B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE6E37D25DD3FC4008C71B4 /* zailaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zailaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE6E38125DD3FC4008C71B4 /* zailaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zailaUITests.swift; sourceTree = "<group>"; };
+		FAE6E38325DD3FC4008C71B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE6E39025DD440F008C71B4 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		FAE6E39125DD440F008C71B4 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		FAE6E39225DD440F008C71B4 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		FAE6E39325DD440F008C71B4 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		FAE6E39425DD440F008C71B4 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		FAE6E39525DD440F008C71B4 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		FAE6E39625DD440F008C71B4 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE6E35925DD3FC3008C71B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6E36F25DD3FC4008C71B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6E37A25DD3FC4008C71B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE6E35325DD3FC3008C71B4 = {
+			isa = PBXGroup;
+			children = (
+				FAE6E35E25DD3FC3008C71B4 /* zaila */,
+				FAE6E37525DD3FC4008C71B4 /* zailaTests */,
+				FAE6E38025DD3FC4008C71B4 /* zailaUITests */,
+				FAE6E35D25DD3FC3008C71B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE6E35D25DD3FC3008C71B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6E35C25DD3FC3008C71B4 /* zaila.app */,
+				FAE6E37225DD3FC4008C71B4 /* zailaTests.xctest */,
+				FAE6E37D25DD3FC4008C71B4 /* zailaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE6E35E25DD3FC3008C71B4 /* zaila */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6E35F25DD3FC3008C71B4 /* AppDelegate.swift */,
+				FAE6E36125DD3FC3008C71B4 /* SceneDelegate.swift */,
+				FAE6E38F25DD43F0008C71B4 /* soubds */,
+				FAE6E36525DD3FC3008C71B4 /* Main.storyboard */,
+				FAE6E36825DD3FC4008C71B4 /* Assets.xcassets */,
+				FAE6E36A25DD3FC4008C71B4 /* LaunchScreen.storyboard */,
+				FAE6E36D25DD3FC4008C71B4 /* Info.plist */,
+			);
+			path = zaila;
+			sourceTree = "<group>";
+		};
+		FAE6E37525DD3FC4008C71B4 /* zailaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6E37625DD3FC4008C71B4 /* zailaTests.swift */,
+				FAE6E37825DD3FC4008C71B4 /* Info.plist */,
+			);
+			path = zailaTests;
+			sourceTree = "<group>";
+		};
+		FAE6E38025DD3FC4008C71B4 /* zailaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6E38125DD3FC4008C71B4 /* zailaUITests.swift */,
+				FAE6E38325DD3FC4008C71B4 /* Info.plist */,
+			);
+			path = zailaUITests;
+			sourceTree = "<group>";
+		};
+		FAE6E38F25DD43F0008C71B4 /* soubds */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6E39625DD440F008C71B4 /* A.wav */,
+				FAE6E39225DD440F008C71B4 /* B.wav */,
+				FAE6E39525DD440F008C71B4 /* C.wav */,
+				FAE6E39125DD440F008C71B4 /* D.wav */,
+				FAE6E39325DD440F008C71B4 /* E.wav */,
+				FAE6E39025DD440F008C71B4 /* F.wav */,
+				FAE6E39425DD440F008C71B4 /* G.wav */,
+				FAE6E36325DD3FC3008C71B4 /* ViewController.swift */,
+			);
+			path = soubds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE6E35B25DD3FC3008C71B4 /* zaila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE6E38625DD3FC4008C71B4 /* Build configuration list for PBXNativeTarget "zaila" */;
+			buildPhases = (
+				FAE6E35825DD3FC3008C71B4 /* Sources */,
+				FAE6E35925DD3FC3008C71B4 /* Frameworks */,
+				FAE6E35A25DD3FC3008C71B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zaila;
+			productName = zaila;
+			productReference = FAE6E35C25DD3FC3008C71B4 /* zaila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE6E37125DD3FC4008C71B4 /* zailaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE6E38925DD3FC4008C71B4 /* Build configuration list for PBXNativeTarget "zailaTests" */;
+			buildPhases = (
+				FAE6E36E25DD3FC4008C71B4 /* Sources */,
+				FAE6E36F25DD3FC4008C71B4 /* Frameworks */,
+				FAE6E37025DD3FC4008C71B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE6E37425DD3FC4008C71B4 /* PBXTargetDependency */,
+			);
+			name = zailaTests;
+			productName = zailaTests;
+			productReference = FAE6E37225DD3FC4008C71B4 /* zailaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE6E37C25DD3FC4008C71B4 /* zailaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE6E38C25DD3FC4008C71B4 /* Build configuration list for PBXNativeTarget "zailaUITests" */;
+			buildPhases = (
+				FAE6E37925DD3FC4008C71B4 /* Sources */,
+				FAE6E37A25DD3FC4008C71B4 /* Frameworks */,
+				FAE6E37B25DD3FC4008C71B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE6E37F25DD3FC4008C71B4 /* PBXTargetDependency */,
+			);
+			name = zailaUITests;
+			productName = zailaUITests;
+			productReference = FAE6E37D25DD3FC4008C71B4 /* zailaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE6E35425DD3FC3008C71B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					FAE6E35B25DD3FC3008C71B4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FAE6E37125DD3FC4008C71B4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FAE6E35B25DD3FC3008C71B4;
+					};
+					FAE6E37C25DD3FC4008C71B4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FAE6E35B25DD3FC3008C71B4;
+					};
+				};
+			};
+			buildConfigurationList = FAE6E35725DD3FC3008C71B4 /* Build configuration list for PBXProject "zaila" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE6E35325DD3FC3008C71B4;
+			productRefGroup = FAE6E35D25DD3FC3008C71B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE6E35B25DD3FC3008C71B4 /* zaila */,
+				FAE6E37125DD3FC4008C71B4 /* zailaTests */,
+				FAE6E37C25DD3FC4008C71B4 /* zailaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE6E35A25DD3FC3008C71B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6E39B25DD440F008C71B4 /* G.wav in Resources */,
+				FAE6E36C25DD3FC4008C71B4 /* LaunchScreen.storyboard in Resources */,
+				FAE6E36925DD3FC4008C71B4 /* Assets.xcassets in Resources */,
+				FAE6E39C25DD440F008C71B4 /* C.wav in Resources */,
+				FAE6E39825DD440F008C71B4 /* D.wav in Resources */,
+				FAE6E39925DD440F008C71B4 /* B.wav in Resources */,
+				FAE6E36725DD3FC3008C71B4 /* Main.storyboard in Resources */,
+				FAE6E39A25DD440F008C71B4 /* E.wav in Resources */,
+				FAE6E39D25DD440F008C71B4 /* A.wav in Resources */,
+				FAE6E39725DD440F008C71B4 /* F.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6E37025DD3FC4008C71B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6E37B25DD3FC4008C71B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE6E35825DD3FC3008C71B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6E36425DD3FC3008C71B4 /* ViewController.swift in Sources */,
+				FAE6E36025DD3FC3008C71B4 /* AppDelegate.swift in Sources */,
+				FAE6E36225DD3FC3008C71B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6E36E25DD3FC4008C71B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6E37725DD3FC4008C71B4 /* zailaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6E37925DD3FC4008C71B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6E38225DD3FC4008C71B4 /* zailaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE6E37425DD3FC4008C71B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE6E35B25DD3FC3008C71B4 /* zaila */;
+			targetProxy = FAE6E37325DD3FC4008C71B4 /* PBXContainerItemProxy */;
+		};
+		FAE6E37F25DD3FC4008C71B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE6E35B25DD3FC3008C71B4 /* zaila */;
+			targetProxy = FAE6E37E25DD3FC4008C71B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE6E36525DD3FC3008C71B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE6E36625DD3FC3008C71B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE6E36A25DD3FC4008C71B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE6E36B25DD3FC4008C71B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE6E38425DD3FC4008C71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE6E38525DD3FC4008C71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE6E38725DD3FC4008C71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47F9K5S5U;
+				INFOPLIST_FILE = zaila/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.zaila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE6E38825DD3FC4008C71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47F9K5S5U;
+				INFOPLIST_FILE = zaila/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.zaila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE6E38A25DD3FC4008C71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47F9K5S5U;
+				INFOPLIST_FILE = zailaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.zailaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zaila.app/zaila";
+			};
+			name = Debug;
+		};
+		FAE6E38B25DD3FC4008C71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47F9K5S5U;
+				INFOPLIST_FILE = zailaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.zailaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zaila.app/zaila";
+			};
+			name = Release;
+		};
+		FAE6E38D25DD3FC4008C71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47F9K5S5U;
+				INFOPLIST_FILE = zailaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.zailaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zaila;
+			};
+			name = Debug;
+		};
+		FAE6E38E25DD3FC4008C71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47F9K5S5U;
+				INFOPLIST_FILE = zailaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.zailaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zaila;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE6E35725DD3FC3008C71B4 /* Build configuration list for PBXProject "zaila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6E38425DD3FC4008C71B4 /* Debug */,
+				FAE6E38525DD3FC4008C71B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE6E38625DD3FC4008C71B4 /* Build configuration list for PBXNativeTarget "zaila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6E38725DD3FC4008C71B4 /* Debug */,
+				FAE6E38825DD3FC4008C71B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE6E38925DD3FC4008C71B4 /* Build configuration list for PBXNativeTarget "zailaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6E38A25DD3FC4008C71B4 /* Debug */,
+				FAE6E38B25DD3FC4008C71B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE6E38C25DD3FC4008C71B4 /* Build configuration list for PBXNativeTarget "zailaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE6E38D25DD3FC4008C71B4 /* Debug */,
+				FAE6E38E25DD3FC4008C71B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE6E35425DD3FC3008C71B4 /* Project object */;
+}
